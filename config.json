@@ -1,0 +1,24 @@
+
+    {
+        "server": {
+          "http_port": ":8083",
+          "ice_servers": ["stun:stun.l.google.com:19302"],
+          "ice_username": "",
+          "ice_credential": ""
+        },
+        "streams": {
+          "opa": {
+            "on_demand": false,
+            "disable_audio": true,
+            "url": "rtsp://admin:Bionic12345@192.168.1.180:554/streaming/Channels/102"
+          },
+          "opad": {
+            "on_demand": false,
+            "disable_audio": true,
+            "url": "rtsp://admin:Bionic12345@192.168.1.180:554/streaming/Channels/102"
+          }     
+        }
+      }
+    
+    
+    
